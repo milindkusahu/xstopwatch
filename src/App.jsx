@@ -8,7 +8,7 @@ const App = () => {
   const Time = (seconds) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSec = seconds % 60;
-    return `${minutes}: ${remainingSec < 10 ? "0" : ""}${remainingSec}`;
+    return `${minutes}:${remainingSec < 10 ? "0" : ""}${remainingSec}`;
   };
 
   function Start() {
